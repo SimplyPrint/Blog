@@ -5,16 +5,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://SimplyPrint.github.io',
+  baseUrl: '/Blog/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'SimplyPrint', // Usually your GitHub org/user name.
+  projectName: 'Blog', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'SimplyPrint Blog',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
