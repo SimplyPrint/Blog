@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'SimplyPrint Blog',
   tagline: 'SimplyPrint Blog',
-  url: 'https://SimplyPrint.github.io',
+  url: 'https://blog.simplyprint.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
