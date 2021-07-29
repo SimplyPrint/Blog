@@ -3,13 +3,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'SimplyPrint Blog',
+  tagline: 'SimplyPrint Blog',
   url: 'https://SimplyPrint.github.io',
-  baseUrl: '/Blog/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icon_gradient.ico',
   organizationName: 'SimplyPrint', // Usually your GitHub org/user name.
   projectName: 'Blog', // Usually your repo name.
   themeConfig: {
@@ -20,47 +20,47 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-        {
+        /* {
           type: 'doc',
           docId: 'intro',
           position: 'left',
           label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        }, */
         {
+          to: '/blog', 
+          label: 'Blog', 
+          position: 'left',
+        },
+        /* {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
           position: 'right',
-        },
+        }, */
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Blogs',
           items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
+            /* {
+              label: 'First Blog',
+              to: '/docs/first',
+            }, */
           ],
         },
         {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Front Page',
+              href: 'https://simplyprint.io/',
             },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
+            /* {
+              label: 'Facebook',
+              href: 'www.facebook.com/groups/simplyprint/',
+            }, */
           ],
         },
         {
@@ -72,7 +72,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/SimplyPrint/Blog',
             },
           ],
         },
@@ -92,13 +92,17 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/SimplyPrint/Blog/tree/main/my-website',
+          /* editUrl:
+            'https://github.com/facebook/docusaurus/edit/master/website/', */
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/SimplyPrint/Blog/tree/main/my-website/blog',
+          /* editUrl:
+            'https://github.com/facebook/docusaurus/edit/master/website/blog/', */
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
