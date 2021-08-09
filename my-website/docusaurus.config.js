@@ -14,7 +14,7 @@ module.exports = {
   projectName: 'Blog', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'SimplyPrint Blog',
+      title: 'Overview',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
